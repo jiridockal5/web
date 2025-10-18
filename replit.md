@@ -63,5 +63,6 @@ Server runs on http://localhost:5000
 
 ## Notes
 - Contact form is visual only (no backend submission)
-- LinkedIn and CV links are placeholders matching original site
+- LinkedIn link updated to actual profile URL
+- CV/Bio link is placeholder (not yet provided)
 - Smooth scroll behavior enabled in CSS
