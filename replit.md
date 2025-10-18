@@ -59,6 +59,7 @@ Server runs on http://localhost:5000
 - 2025-10-18: Added mobile hamburger navigation menu
 - 2025-10-18: Fixed accessibility warnings for placeholder links
 - 2025-10-18: Added allowedHosts: true to vite.config.ts for Replit dev URL support
+- 2025-10-18: Translated entire website from Czech to English
 
 ## Notes
 - Contact form is visual only (no backend submission)
