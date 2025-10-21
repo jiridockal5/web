@@ -229,9 +229,28 @@
                                 
                                 <div class="bg-gray-800/30 border border-gray-700 rounded-lg p-8">
                                         <h3 class="text-2xl font-semibold mb-6">Tech stack</h3>
-                                        <div class="text-gray-300 text-sm leading-relaxed">
-                                                Chargebee / Stripe • Google Sheets • Odoo / Quickbooks / Flexibee • Notion / Slack • GitHub • (VAT/OSS EU)
-                                        </div>
+                                        <ul class="space-y-4 text-gray-300">
+                                                <li class="flex items-start gap-3">
+                                                        <span class="text-indigo-400 mt-1">•</span>
+                                                        <span><strong>Billing & payments:</strong> Chargebee, Stripe</span>
+                                                </li>
+                                                <li class="flex items-start gap-3">
+                                                        <span class="text-indigo-400 mt-1">•</span>
+                                                        <span><strong>Accounting:</strong> Odoo, Quickbooks, Flexibee</span>
+                                                </li>
+                                                <li class="flex items-start gap-3">
+                                                        <span class="text-indigo-400 mt-1">•</span>
+                                                        <span><strong>Data & reporting:</strong> Google Sheets</span>
+                                                </li>
+                                                <li class="flex items-start gap-3">
+                                                        <span class="text-indigo-400 mt-1">•</span>
+                                                        <span><strong>Collaboration:</strong> Notion, Slack, GitHub</span>
+                                                </li>
+                                                <li class="flex items-start gap-3">
+                                                        <span class="text-indigo-400 mt-1">•</span>
+                                                        <span><strong>Compliance:</strong> VAT/OSS EU</span>
+                                                </li>
+                                        </ul>
                                 </div>
                         </div>
                 </div>
