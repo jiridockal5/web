@@ -106,7 +106,7 @@
                 <!-- Stats Cards -->
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-12">
                         <div class="bg-gradient-to-br from-gray-800/50 to-emerald-900/10 border border-emerald-500/20 rounded-lg p-6">
-                                <div class="text-2xl sm:text-3xl font-bold text-emerald-400 mb-2">€2–50M</div>
+                                <div class="text-2xl sm:text-3xl font-bold text-emerald-400 mb-2">€100k to 10M €</div>
                                 <div class="text-sm text-gray-400">typical ARR range of clients</div>
                         </div>
                         <div class="bg-gradient-to-br from-gray-800/50 to-emerald-900/10 border border-emerald-500/20 rounded-lg p-6">
