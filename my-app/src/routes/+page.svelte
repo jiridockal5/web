@@ -363,7 +363,7 @@
                                                 <div>
                                                         <h3 class="text-lg font-semibold mb-3">Quick links</h3>
                                                         <div class="space-y-2">
-                                                                <a href="https://cz.linkedin.com/in/jiri-dockal-b9b16137" class="block text-indigo-400 hover:text-indigo-300 transition-colors">
+                                                                <a href="https://www.linkedin.com/in/ji%C5%99%C3%AD-do%C4%8Dkal-2a491459/" class="block text-indigo-400 hover:text-indigo-300 transition-colors">
                                                                         LinkedIn
                                                                 </a>
                                                                 <a href="#" class="block text-indigo-400 hover:text-indigo-300 transition-colors">
