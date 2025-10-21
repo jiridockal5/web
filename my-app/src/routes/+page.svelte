@@ -31,10 +31,10 @@
                         
                         <!-- Desktop Navigation -->
                         <div class="hidden md:flex items-center gap-6 text-sm">
-                                <a href="#services" class="hover:text-indigo-400 transition-colors">Services</a>
-                                <a href="#expertise" class="hover:text-indigo-400 transition-colors">Expertise</a>
-                                <a href="#references" class="hover:text-indigo-400 transition-colors">References</a>
-                                <a href="#process" class="hover:text-indigo-400 transition-colors">Process</a>
+                                <a href="#services" class="hover:text-orange-500 transition-colors">Services</a>
+                                <a href="#expertise" class="hover:text-orange-500 transition-colors">Expertise</a>
+                                <a href="#references" class="hover:text-orange-500 transition-colors">References</a>
+                                <a href="#process" class="hover:text-orange-500 transition-colors">Process</a>
                         </div>
                         
                         <div class="flex items-center gap-3">
@@ -66,10 +66,10 @@
                 {#if mobileMenuOpen}
                         <div class="md:hidden mt-4 pt-4 border-t border-gray-800">
                                 <div class="flex flex-col gap-4">
-                                        <a href="#services" onclick={closeMobileMenu} class="hover:text-indigo-400 transition-colors py-2">Services</a>
-                                        <a href="#expertise" onclick={closeMobileMenu} class="hover:text-indigo-400 transition-colors py-2">Expertise</a>
-                                        <a href="#references" onclick={closeMobileMenu} class="hover:text-indigo-400 transition-colors py-2">References</a>
-                                        <a href="#process" onclick={closeMobileMenu} class="hover:text-indigo-400 transition-colors py-2">Process</a>
+                                        <a href="#services" onclick={closeMobileMenu} class="hover:text-orange-500 transition-colors py-2">Services</a>
+                                        <a href="#expertise" onclick={closeMobileMenu} class="hover:text-orange-500 transition-colors py-2">Expertise</a>
+                                        <a href="#references" onclick={closeMobileMenu} class="hover:text-orange-500 transition-colors py-2">References</a>
+                                        <a href="#process" onclick={closeMobileMenu} class="hover:text-orange-500 transition-colors py-2">Process</a>
                                         <a href="#contact" onclick={closeMobileMenu} class="bg-indigo-600 hover:bg-indigo-700 px-4 py-3 rounded-lg text-sm font-medium transition-colors text-center">
                                                 Schedule a 20min call
                                         </a>
@@ -84,7 +84,7 @@
         <!-- Hero Section -->
         <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-20">
                 <div class="inline-flex items-center gap-2 text-xs sm:text-sm text-gray-400 mb-6 flex-wrap">
-                        <span class="text-emerald-400">B2B SaaS</span>
+                        <span class="text-orange-500">B2B SaaS</span>
                         <span>•</span>
                         <span>Reports</span>
                         <span>•</span>
@@ -106,7 +106,7 @@
                 <!-- Stats Cards -->
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-12">
                         <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6">
-                                <div class="text-2xl sm:text-3xl font-bold text-indigo-400 mb-2">€2–50M</div>
+                                <div class="text-2xl sm:text-3xl font-bold text-orange-500 mb-2">€2–50M</div>
                                 <div class="text-sm text-gray-400">typical ARR range of clients</div>
                         </div>
                         <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6">
@@ -114,7 +114,7 @@
                                 <div class="text-sm text-gray-400">YoY growth for scaling teams</div>
                         </div>
                         <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6">
-                                <div class="text-2xl sm:text-3xl font-bold text-indigo-400 mb-2">Board‑ready</div>
+                                <div class="text-2xl sm:text-3xl font-bold text-orange-500 mb-2">Board‑ready</div>
                                 <div class="text-sm text-gray-400">monthly and quarterly reporting</div>
                         </div>
                 </div>
@@ -131,15 +131,15 @@
                         <h3 class="text-xl sm:text-2xl font-semibold mb-6">Finance as a product — clarity, rhythm, discipline</h3>
                         <ul class="space-y-3 text-gray-300">
                                 <li class="flex items-start gap-3">
-                                        <span class="text-emerald-400 mt-1">✔️</span>
+                                        <span class="text-orange-500 mt-1">✔️</span>
                                         <span>MRR/ARR & cohorts • NDR/GRR • LTV/CAC • Burn multiple</span>
                                 </li>
                                 <li class="flex items-start gap-3">
-                                        <span class="text-emerald-400 mt-1">✔️</span>
+                                        <span class="text-orange-500 mt-1">✔️</span>
                                         <span>Budget vs Actuals • Forecast • Cash runway • Fundraising</span>
                                 </li>
                                 <li class="flex items-start gap-3">
-                                        <span class="text-emerald-400 mt-1">✔️</span>
+                                        <span class="text-orange-500 mt-1">✔️</span>
                                         <span>RevOps: pricing, plans, discounts, billing • RevRec • VAT/OSS</span>
                                 </li>
                         </ul>
@@ -153,42 +153,42 @@
                         <p class="text-gray-400 mb-12">Modular — choose only what you need right now</p>
                         
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                                <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6 hover:border-indigo-500 transition-colors">
+                                <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6 hover:border-orange-500 transition-colors">
                                         <h3 class="text-xl font-semibold mb-3">Reporting & KPIs</h3>
                                         <p class="text-gray-300 text-sm">
                                                 MRR/ARR, cohorts, NDR/GRR, churn, healthy dashboards and monthly closing that even a small team can manage.
                                         </p>
                                 </div>
                                 
-                                <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6 hover:border-indigo-500 transition-colors">
+                                <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6 hover:border-orange-500 transition-colors">
                                         <h3 class="text-xl font-semibold mb-3">Forecast & budget</h3>
                                         <p class="text-gray-300 text-sm">
                                                 12–24m model, scenarios, sensitivities, hiring plan. Clear picture of runway and "what‑ifs" for board and investors.
                                         </p>
                                 </div>
                                 
-                                <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6 hover:border-indigo-500 transition-colors">
+                                <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6 hover:border-orange-500 transition-colors">
                                         <h3 class="text-xl font-semibold mb-3">Fundraising</h3>
                                         <p class="text-gray-300 text-sm">
                                                 Preparation of materials (deck, data room), metrics, valuation, investor communication. Seed/Series A.
                                         </p>
                                 </div>
                                 
-                                <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6 hover:border-indigo-500 transition-colors">
+                                <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6 hover:border-orange-500 transition-colors">
                                         <h3 class="text-xl font-semibold mb-3">RevOps & pricing</h3>
                                         <p class="text-gray-300 text-sm">
                                                 Setting up plans, discounts, billing and revenue recognition. Collaboration with product/CS to grow NDR.
                                         </p>
                                 </div>
                                 
-                                <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6 hover:border-indigo-500 transition-colors">
+                                <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6 hover:border-orange-500 transition-colors">
                                         <h3 class="text-xl font-semibold mb-3">Processes & tools</h3>
                                         <p class="text-gray-300 text-sm">
                                                 Chargebee/Stripe, accounting, CRM, data flows, closings, internal controls. Practical and without unnecessary bureaucracy.
                                         </p>
                                 </div>
                                 
-                                <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6 hover:border-indigo-500 transition-colors">
+                                <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6 hover:border-orange-500 transition-colors">
                                         <h3 class="text-xl font-semibold mb-3">Interim finance team</h3>
                                         <p class="text-gray-300 text-sm">
                                                 Temporary capacity, hiring, onboarding and setting up the finance team rhythm.
@@ -209,19 +209,19 @@
                                         <h3 class="text-2xl font-semibold mb-6">Why work with me</h3>
                                         <ul class="space-y-4 text-gray-300">
                                                 <li class="flex items-start gap-3">
-                                                        <span class="text-indigo-400 mt-1">•</span>
+                                                        <span class="text-orange-500 mt-1">•</span>
                                                         <span>Hands‑on CFO for startups and scale‑ups (CZ/EU).</span>
                                                 </li>
                                                 <li class="flex items-start gap-3">
-                                                        <span class="text-indigo-400 mt-1">•</span>
+                                                        <span class="text-orange-500 mt-1">•</span>
                                                         <span>Strong <strong>SaaS unit economics</strong> & reporting (MRR/ARR, cohorts, NDR, churn).</span>
                                                 </li>
                                                 <li class="flex items-start gap-3">
-                                                        <span class="text-indigo-400 mt-1">•</span>
+                                                        <span class="text-orange-500 mt-1">•</span>
                                                         <span>Fundraising (seed/Series A), investor communication, data room.</span>
                                                 </li>
                                                 <li class="flex items-start gap-3">
-                                                        <span class="text-indigo-400 mt-1">•</span>
+                                                        <span class="text-orange-500 mt-1">•</span>
                                                         <span>Practical processes: closing in 5 business days, forecast always up to date.</span>
                                                 </li>
                                         </ul>
@@ -231,23 +231,23 @@
                                         <h3 class="text-2xl font-semibold mb-6">Tech stack</h3>
                                         <ul class="space-y-4 text-gray-300">
                                                 <li class="flex items-start gap-3">
-                                                        <span class="text-indigo-400 mt-1">•</span>
+                                                        <span class="text-orange-500 mt-1">•</span>
                                                         <span><strong>Billing & payments:</strong> Chargebee, Stripe</span>
                                                 </li>
                                                 <li class="flex items-start gap-3">
-                                                        <span class="text-indigo-400 mt-1">•</span>
+                                                        <span class="text-orange-500 mt-1">•</span>
                                                         <span><strong>Accounting:</strong> Odoo, Quickbooks, Flexibee</span>
                                                 </li>
                                                 <li class="flex items-start gap-3">
-                                                        <span class="text-indigo-400 mt-1">•</span>
+                                                        <span class="text-orange-500 mt-1">•</span>
                                                         <span><strong>Data & reporting:</strong> Google Sheets</span>
                                                 </li>
                                                 <li class="flex items-start gap-3">
-                                                        <span class="text-indigo-400 mt-1">•</span>
+                                                        <span class="text-orange-500 mt-1">•</span>
                                                         <span><strong>Collaboration:</strong> Notion, Slack, GitHub</span>
                                                 </li>
                                                 <li class="flex items-start gap-3">
-                                                        <span class="text-indigo-400 mt-1">•</span>
+                                                        <span class="text-orange-500 mt-1">•</span>
                                                         <span><strong>Compliance:</strong> VAT/OSS EU</span>
                                                 </li>
                                         </ul>
@@ -264,21 +264,21 @@
                         
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                                 <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6">
-                                        <h3 class="text-lg font-semibold mb-3 text-indigo-400">Reporting in 14 days</h3>
+                                        <h3 class="text-lg font-semibold mb-3 text-orange-500">Reporting in 14 days</h3>
                                         <p class="text-gray-300 text-sm">
                                                 Built product-level MRR/ARR reporting + cohorts. Board‑ready KPIs in two weeks, including automated exports.
                                         </p>
                                 </div>
                                 
                                 <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6">
-                                        <h3 class="text-lg font-semibold mb-3 text-indigo-400">Cash discipline</h3>
+                                        <h3 class="text-lg font-semibold mb-3 text-orange-500">Cash discipline</h3>
                                         <p class="text-gray-300 text-sm">
                                                 Implemented weekly cash forecast and expense approval. Clear runway & hiring prioritization.
                                         </p>
                                 </div>
                                 
                                 <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-6">
-                                        <h3 class="text-lg font-semibold mb-3 text-indigo-400">Fundraising support</h3>
+                                        <h3 class="text-lg font-semibold mb-3 text-orange-500">Fundraising support</h3>
                                         <p class="text-gray-300 text-sm">
                                                 Prepared deck and data room, clean metrics and scenarios. Successful round led by EU fund.
                                         </p>
@@ -296,7 +296,7 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                                 <div class="bg-gray-800/30 border border-gray-700 rounded-lg p-6">
                                         <div class="flex items-start gap-4">
-                                                <div class="w-10 h-10 rounded-full bg-indigo-600 flex items-center justify-center font-bold flex-shrink-0">1</div>
+                                                <div class="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center font-bold flex-shrink-0">1</div>
                                                 <div>
                                                         <h3 class="text-lg font-semibold mb-2">Initial 20min call</h3>
                                                         <p class="text-gray-300 text-sm">To see if we're a good fit and what collaboration potential exists.</p>
@@ -306,7 +306,7 @@
                                 
                                 <div class="bg-gray-800/30 border border-gray-700 rounded-lg p-6">
                                         <div class="flex items-start gap-4">
-                                                <div class="w-10 h-10 rounded-full bg-indigo-600 flex items-center justify-center font-bold flex-shrink-0">2</div>
+                                                <div class="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center font-bold flex-shrink-0">2</div>
                                                 <div>
                                                         <h3 class="text-lg font-semibold mb-2">Audit and prioritization (1–2 weeks)</h3>
                                                         <p class="text-gray-300 text-sm">Quick mapping of metrics, processes and risks. Together we choose 3–5 goals.</p>
@@ -316,7 +316,7 @@
                                 
                                 <div class="bg-gray-800/30 border border-gray-700 rounded-lg p-6">
                                         <div class="flex items-start gap-4">
-                                                <div class="w-10 h-10 rounded-full bg-indigo-600 flex items-center justify-center font-bold flex-shrink-0">3</div>
+                                                <div class="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center font-bold flex-shrink-0">3</div>
                                                 <div>
                                                         <h3 class="text-lg font-semibold mb-2">Execution sprints</h3>
                                                         <p class="text-gray-300 text-sm">Weekly/bi-weekly sprints with clear deliverables. Report in 5 days, forecast in 10 days, etc.</p>
@@ -326,7 +326,7 @@
                                 
                                 <div class="bg-gray-800/30 border border-gray-700 rounded-lg p-6">
                                         <div class="flex items-start gap-4">
-                                                <div class="w-10 h-10 rounded-full bg-indigo-600 flex items-center justify-center font-bold flex-shrink-0">4</div>
+                                                <div class="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center font-bold flex-shrink-0">4</div>
                                                 <div>
                                                         <h3 class="text-lg font-semibold mb-2">Rhythm & mentoring</h3>
                                                         <p class="text-gray-300 text-sm">Monthly closing, board pack, finance team leadership, hiring/onboarding.</p>
@@ -355,12 +355,12 @@
                         
                         <div class="max-w-2xl mx-auto">
                                 <a href="https://www.linkedin.com/in/ji%C5%99%C3%AD-do%C4%8Dkal-2a491459/" 
-                                   class="block bg-gray-800/50 border border-gray-700 rounded-lg p-12 hover:border-indigo-500 transition-colors group"
+                                   class="block bg-gray-800/50 border border-gray-700 rounded-lg p-12 hover:border-orange-500 transition-colors group"
                                    target="_blank"
                                    rel="noopener noreferrer">
                                         <div class="text-center">
                                                 <p class="text-lg text-gray-400 mb-6">Contact me on</p>
-                                                <div class="text-4xl sm:text-5xl font-bold text-white group-hover:text-indigo-400 transition-colors">
+                                                <div class="text-4xl sm:text-5xl font-bold text-white group-hover:text-orange-500 transition-colors">
                                                         Linked<span class="inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 bg-white text-blue-600 rounded ml-2 align-middle">in</span>
                                                 </div>
                                         </div>
