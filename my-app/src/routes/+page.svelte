@@ -331,14 +331,19 @@
         <!-- Contact Section -->
         <section id="contact" class="bg-gray-900/50 py-16 sm:py-20">
                 <div class="max-w-6xl mx-auto px-4 sm:px-6">
-                        <div class="text-center">
-                                <h2 class="text-4xl sm:text-5xl font-bold mb-12 text-cyan-400">Contact me on</h2>
+                        <h2 class="text-3xl sm:text-4xl font-bold mb-4">Contact</h2>
+                        <p class="text-gray-400 mb-12">Let's discuss how I can help your company grow</p>
+                        
+                        <div class="max-w-2xl mx-auto">
                                 <a href="https://www.linkedin.com/in/ji%C5%99%C3%AD-do%C4%8Dkal-2a491459/" 
-                                   class="inline-block hover:scale-105 transition-transform duration-200"
+                                   class="block bg-gray-800/50 border border-gray-700 rounded-lg p-12 hover:border-indigo-500 transition-colors group"
                                    target="_blank"
                                    rel="noopener noreferrer">
-                                        <div class="text-6xl sm:text-7xl font-bold text-white">
-                                                Linked<span class="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 bg-white text-blue-600 rounded ml-2 align-middle">in</span>
+                                        <div class="text-center">
+                                                <p class="text-lg text-gray-400 mb-6">Contact me on</p>
+                                                <div class="text-4xl sm:text-5xl font-bold text-white group-hover:text-indigo-400 transition-colors">
+                                                        Linked<span class="inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 bg-white text-blue-600 rounded ml-2 align-middle">in</span>
+                                                </div>
                                         </div>
                                 </a>
                         </div>
