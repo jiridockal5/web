@@ -106,16 +106,16 @@
                 <!-- Stats Cards -->
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-12">
                         <div class="bg-gradient-to-br from-gray-800/50 to-emerald-900/10 border border-emerald-500/20 rounded-lg p-6">
-                                <div class="text-2xl sm:text-3xl font-bold text-emerald-400 mb-2">€100k to 10M €</div>
-                                <div class="text-sm text-gray-400">typical ARR range of clients</div>
+                                <div class="text-lg sm:text-xl font-bold text-emerald-400 mb-2">Investor-grade finance</div>
+                                <div class="text-sm text-gray-400">Cohorts, NDR, CAC/payback, revenue recognition—clean and defensible.</div>
                         </div>
                         <div class="bg-gradient-to-br from-gray-800/50 to-emerald-900/10 border border-emerald-500/20 rounded-lg p-6">
-                                <div class="text-2xl sm:text-3xl font-bold text-indigo-400 mb-2">60%+</div>
-                                <div class="text-sm text-gray-400">YoY growth for scaling teams</div>
+                                <div class="text-lg sm:text-xl font-bold text-emerald-400 mb-2">Runway under control</div>
+                                <div class="text-sm text-gray-400">Cash model, scenarios, hiring plan → decisions with confidence.</div>
                         </div>
                         <div class="bg-gradient-to-br from-gray-800/50 to-emerald-900/10 border border-emerald-500/20 rounded-lg p-6">
-                                <div class="text-2xl sm:text-3xl font-bold text-emerald-400 mb-2">Board‑ready</div>
-                                <div class="text-sm text-gray-400">monthly and quarterly reporting</div>
+                                <div class="text-lg sm:text-xl font-bold text-emerald-400 mb-2">Clear revenue story</div>
+                                <div class="text-sm text-gray-400">MRR waterfall, expansion vs. churn, retention you can show a board.</div>
                         </div>
                 </div>
                 
