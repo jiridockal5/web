@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	ci: {
 		collect: {
 			staticDistDir: './build',
@@ -7,19 +7,16 @@ module.exports = {
 		assert: {
 			preset: 'lighthouse:no-pwa',
 			assertions: {
-				// Performance budgets
 				'categories:performance': ['error', {minScore: 0.9}],
 				'categories:accessibility': ['error', {minScore: 0.9}],
 				'categories:best-practices': ['warn', {minScore: 0.9}],
 				'categories:seo': ['warn', {minScore: 0.9}],
 				
-				// Resource size budgets
-				'resource-summary:script:size': ['error', {maxNumericValue: 70000}], // 70kB
-				'resource-summary:stylesheet:size': ['error', {maxNumericValue: 40000}], // 40kB
-				'resource-summary:third-party:size': ['error', {maxNumericValue: 50000}], // 50kB
-				'resource-summary:total:size': ['warn', {maxNumericValue: 200000}], // 200kB total
+				'resource-summary:script:size': ['error', {maxNumericValue: 70000}],
+				'resource-summary:stylesheet:size': ['error', {maxNumericValue: 40000}],
+				'resource-summary:third-party:size': ['error', {maxNumericValue: 50000}],
+				'resource-summary:total:size': ['warn', {maxNumericValue: 200000}],
 				
-				// Performance metrics
 				'first-contentful-paint': ['error', {maxNumericValue: 1800}],
 				'largest-contentful-paint': ['error', {maxNumericValue: 2500}],
 				'interactive': ['error', {maxNumericValue: 3500}],
