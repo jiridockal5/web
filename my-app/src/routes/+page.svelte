@@ -230,7 +230,7 @@
                                 <div class="bg-gray-800/30 border border-gray-700 rounded-lg p-8">
                                         <h3 class="text-2xl font-semibold mb-6">Tech stack</h3>
                                         <div class="text-gray-300 text-sm leading-relaxed">
-                                                Chargebee / Stripe • Google Sheets • Odoo / Xero • Notion / Slack • Looker Studio • GitHub / Linear • (VAT/OSS EU)
+                                                Chargebee / Stripe • Google Sheets • Odoo / Quickbooks / Flexibee • Notion / Slack • GitHub • (VAT/OSS EU)
                                         </div>
                                 </div>
                         </div>
