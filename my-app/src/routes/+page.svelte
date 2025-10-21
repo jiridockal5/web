@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-        <title>Jiří Dočkal — Fractional CFO</title>
+        <title>Jiri Dockal — Fractional CFO</title>
         <meta name="description" content="Fractional CFO for startups and scale-ups" />
 </svelte:head>
 
@@ -24,7 +24,7 @@
                                         JD
                                 </div>
                                 <div class="hidden sm:block">
-                                        <div class="font-semibold">Jiří Dočkal</div>
+                                        <div class="font-semibold">Jiri Dockal</div>
                                         <div class="text-xs text-gray-400">Fractional CFO</div>
                                 </div>
                         </div>
@@ -373,6 +373,6 @@
 <!-- Footer -->
 <footer class="bg-slate-950 border-t border-gray-800 py-8">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center text-gray-400 text-sm">
-                <p>&copy; 2025 Jiří Dočkal. All rights reserved.</p>
+                <p>&copy; 2025 Jiri Dockal. All rights reserved.</p>
         </div>
 </footer>
