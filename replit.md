@@ -62,7 +62,7 @@ Server runs on http://localhost:5000
 - 2025-10-18: Translated entire website from Czech to English
 
 ## Notes
-- Contact form is visual only (no backend submission)
-- LinkedIn link updated to actual profile URL
+- Contact form uses mailto link to send messages to jiri.dockal5@gmail.com
+- LinkedIn link: https://www.linkedin.com/in/jiří-dočkal-2a491459/
 - CV/Bio link is placeholder (not yet provided)
 - Smooth scroll behavior enabled in CSS

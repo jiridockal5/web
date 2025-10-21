@@ -340,7 +340,7 @@
                         
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
                                 <div>
-                                        <form class="space-y-4">
+                                        <div class="space-y-4">
                                                 <div>
                                                         <textarea 
                                                                 bind:value={formData.message}
@@ -349,13 +349,13 @@
                                                                 class="w-full bg-gray-800 border border-gray-700 rounded-lg p-4 text-gray-100 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                                                         ></textarea>
                                                 </div>
-                                                <button 
-                                                        type="submit"
-                                                        class="bg-indigo-600 hover:bg-indigo-700 px-6 py-3 rounded-lg font-medium transition-colors"
+                                                <a 
+                                                        href="mailto:jiri.dockal5@gmail.com?subject=Contact from website&body={encodeURIComponent(formData.message)}"
+                                                        class="inline-block bg-indigo-600 hover:bg-indigo-700 px-6 py-3 rounded-lg font-medium transition-colors"
                                                 >
                                                         Send
-                                                </button>
-                                        </form>
+                                                </a>
+                                        </div>
                                 </div>
                                 
                                 <div>
