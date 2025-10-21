@@ -1,8 +1,4 @@
 <script lang="ts">
-        let formData = $state({
-                message: ''
-        });
-        
         let mobileMenuOpen = $state(false);
         
         function toggleMobileMenu() {
@@ -335,44 +331,16 @@
         <!-- Contact Section -->
         <section id="contact" class="bg-gray-900/50 py-16 sm:py-20">
                 <div class="max-w-6xl mx-auto px-4 sm:px-6">
-                        <h2 class="text-3xl sm:text-4xl font-bold mb-4">Contact</h2>
-                        <p class="text-gray-400 mb-12">Reach out — I'll send you a few slots for a quick call</p>
-                        
-                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                                <div>
-                                        <div class="space-y-4">
-                                                <div>
-                                                        <textarea 
-                                                                bind:value={formData.message}
-                                                                placeholder="Write me a few sentences about your company and goals..."
-                                                                rows="6"
-                                                                class="w-full bg-gray-800 border border-gray-700 rounded-lg p-4 text-gray-100 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                                                        ></textarea>
-                                                </div>
-                                                <a 
-                                                        href="mailto:jiri.dockal5@gmail.com?subject=Contact from website&body={encodeURIComponent(formData.message)}"
-                                                        class="inline-block bg-indigo-600 hover:bg-indigo-700 px-6 py-3 rounded-lg font-medium transition-colors"
-                                                >
-                                                        Send
-                                                </a>
+                        <div class="text-center">
+                                <h2 class="text-4xl sm:text-5xl font-bold mb-12 text-cyan-400">Contact me on</h2>
+                                <a href="https://www.linkedin.com/in/ji%C5%99%C3%AD-do%C4%8Dkal-2a491459/" 
+                                   class="inline-block hover:scale-105 transition-transform duration-200"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                        <div class="text-6xl sm:text-7xl font-bold text-white">
+                                                Linked<span class="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 bg-white text-blue-600 rounded ml-2 align-middle">in</span>
                                         </div>
-                                </div>
-                                
-                                <div>
-                                        <div class="space-y-6">
-                                                <div>
-                                                        <h3 class="text-lg font-semibold mb-3">Quick links</h3>
-                                                        <div class="space-y-2">
-                                                                <a href="https://www.linkedin.com/in/ji%C5%99%C3%AD-do%C4%8Dkal-2a491459/" class="block text-indigo-400 hover:text-indigo-300 transition-colors">
-                                                                        LinkedIn
-                                                                </a>
-                                                                <a href="#" class="block text-indigo-400 hover:text-indigo-300 transition-colors">
-                                                                        CV/Bio
-                                                                </a>
-                                                        </div>
-                                                </div>
-                                        </div>
-                                </div>
+                                </a>
                         </div>
                 </div>
         </section>
