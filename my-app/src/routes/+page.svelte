@@ -39,8 +39,8 @@
                         
                         <div class="flex items-center gap-3">
                                 <!-- CTA Button -->
-                                <a href="https://cal.com/jiri-dockal-ushn7b" target="_blank" rel="noopener noreferrer" class="hidden sm:block bg-indigo-600 hover:bg-indigo-700 px-4 py-2 rounded-lg text-sm font-medium transition-colors">
-                                        Schedule 15 min call
+                                <a href="#contact" class="hidden sm:block bg-indigo-600 hover:bg-indigo-700 px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                                        Get in touch
                                 </a>
                                 
                                 <!-- Mobile Menu Button -->
@@ -70,8 +70,8 @@
                                         <a href="#expertise" onclick={closeMobileMenu} class="hover:text-emerald-400 transition-colors py-2">Expertise</a>
                                         <a href="#references" onclick={closeMobileMenu} class="hover:text-emerald-400 transition-colors py-2">References</a>
                                         <a href="#process" onclick={closeMobileMenu} class="hover:text-emerald-400 transition-colors py-2">Process</a>
-                                        <a href="https://cal.com/jiri-dockal-ushn7b" target="_blank" rel="noopener noreferrer" onclick={closeMobileMenu} class="bg-indigo-600 hover:bg-indigo-700 px-4 py-3 rounded-lg text-sm font-medium transition-colors text-center">
-                                                Schedule 15 min call
+                                        <a href="#contact" onclick={closeMobileMenu} class="bg-indigo-600 hover:bg-indigo-700 px-4 py-3 rounded-lg text-sm font-medium transition-colors text-center">
+                                                Get in touch
                                         </a>
                                 </div>
                         </div>
